@@ -1,8 +1,8 @@
-package com.Shorting;
+package com.Shorting.InsersionShort;
 
 import java.util.Scanner;
 
-class doShort{
+class doShort {
 
     Scanner obj=new Scanner(System.in);
     public void Create_Array(){
@@ -40,11 +40,3 @@ class doShort{
     }
 }
 
-public class InsertionSort {
-
-    public static void main(String[] args) {
-       doShort d=new doShort();
-       d.Create_Array();
-
-    }
-}
